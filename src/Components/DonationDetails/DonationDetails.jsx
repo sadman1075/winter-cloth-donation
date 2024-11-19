@@ -7,8 +7,7 @@ const DonationDetails = () => {
 
     const { id } = useParams()
 
-    console.log(donations)
-    console.log(id)
+ 
 
     const donationDetails = donations?.find(donation => donation.id == id)
     const { title, image, description, status, contactInfo, division } = donationDetails
@@ -18,13 +17,11 @@ const DonationDetails = () => {
         const quantity=e.target.quantity.value;
         const location=e.target.location.value;
         const note=e.target.note.value;
-        console.log(item,quantity,location,note)
         toast.success("Thank you ! We will reach your destination soon")
         e.target.reset()
 
 
     }
-    console.log(donationDetails)
     return (
         <div>
             <div className="card bg-base-100 lg:w-4/5 mx-auto">

@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Dashboard = () => {
     const { user } = useContext(AuthContext)
     const { email,photoURL,displayName } = user
-    console.log(user)
+   
     return (
         <div className="mt-10 mb-10">
             <h1 className="text-center font-bold md:text-3xl">welcome {email}</h1>

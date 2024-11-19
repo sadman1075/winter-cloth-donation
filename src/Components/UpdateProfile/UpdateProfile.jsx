@@ -9,7 +9,6 @@ const UpdateProfile = () => {
         e.preventDefault();
         const name = e.target.name.value;
         const photo = e.target.photo.value;
-        console.log(photo)
 
         updateprofile({ displayName: name, photoURL:photo })
             .then(result => {
@@ -25,7 +24,6 @@ const UpdateProfile = () => {
                 toast.error(error.message)
             })
 
-        console.log(updateprofile)
     }
     return (
         <div className="hero bg-base-200 py-10 mb-10 rounded-2xl">
