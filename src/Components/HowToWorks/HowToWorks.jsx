@@ -1,8 +1,14 @@
 import { Link } from "react-router-dom";
 import works from "../../../public/images/works.jpg"
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const HowToWorks = () => {
+    useEffect(()=>{
+        AOS.init()
+    },[])
     return (
-        <div className="mb-10 lg:mb-20 animate__animated animate__fadeInLeft animate__delay-1s">
+        <div className="mb-10 lg:mb-20 " data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000" data-aos-easing="ease-in-sine">
             <div className="hero bg-base-100 ">
                 <div className="hero-content flex-col lg:flex-row-reverse gap-5">
                     <div className="w-full lg:w-1/2 lg:ml-10">

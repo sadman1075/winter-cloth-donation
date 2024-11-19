@@ -1,9 +1,18 @@
 import { Link } from "react-router-dom";
-import "animate.css"
 import about from "../../../public/images/about.jpg"
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
+
+
 const About = () => {
+    useEffect(() => {
+        AOS.init()
+    }, [])
     return (
-        <div className="-mt-10 mb-10 lg:-mt-40 lg:mb-32 animate__animated animate__fadeInDown animate__delay-1s">
+        <div className="-mt-10 mb-10 lg:-mt-40 lg:mb-32" data-aos="zoom-in" data-aos-duration="2000">
             <div className="hero bg-base-100 ">
                 <div className="hero-content flex-col lg:flex-row gap-5">
                     <div className="w-full lg:w-1/2">

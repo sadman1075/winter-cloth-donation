@@ -1,7 +1,12 @@
-
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const VisionForFuture = () => {
+    useEffect(()=>{
+        AOS.init()
+    },[])
     return (
-        <div className="mb-10 lg:mb-20"> 
+        <div className="mb-10 lg:mb-20" data-aos="zoom-in" data-aos-duration="2000"> 
             <h1 className="text-5xl font-bold text-center">Our Vision for the Future</h1>
             <p className="mt-10 text-xl text-justify">
                 At Winter Clothing website, our mission extends beyond seasonal giving. We envision a world where: <br /><br />

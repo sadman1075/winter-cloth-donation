@@ -1,10 +1,16 @@
+import { useEffect } from "react";
 import banner1 from "../../../public/images/banner 1.jpg"
 import banner2 from "../../../public/images/banner 2.jpeg"
 import banner3 from "../../../public/images/banner 3.jpg"
 import banner4 from "../../../public/images/banner 4.jpg"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Banner = () => {
+    useEffect(()=>{
+        AOS.init()
+    },[])
     return (
-        <div className="mt-6 animate-animated animate_zoomin animate__delay-1s">
+        <div className="mt-6 " data-aos="zoom-in" data-aos-duration="2000">
             <div className="carousel w-full ">
                 <div id="slide1" className="carousel-item relative w-full ">
                     <img
