@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "title": "Warm Clothes for Dhaka",
+        "image": "https://media.istockphoto.com/id/1396160859/photo/baby-and-child-clothes-toys-in-box-second-hand-apparel-idea-circular-fashion-donation-charity.jpg?s=612x612&w=0&k=20&c=cjKWIeNfmEPVdQUBABIWSdGAvm5SUoEdQYB02XOI35c=",
+        "description": "This campaign focuses on providing warm clothes to the underprivileged in Dhaka. Our goal is to ensure no one suffers from the harsh winter cold. Donations include blankets, sweaters, and jackets. Join us to bring warmth to those in need.",
+        "status": "Active",
+        "contactInfo": "contact@dhakahelp.org, +880123456789",
+        "division": "Dhaka"
+    },
+    {
+        "id": 2,
+        "title": "Winter Aid Dhaka",
+        "image": "https://www.redracksthriftstores.com/wp-content/uploads/2024/04/Depositphotos_369059920_L.jpg",
+        "description": "Distributing blankets and essential winter items to families in Dhaka. We aim to protect vulnerable groups from extreme weather. The campaign is supported by generous donors and volunteers. Together, let's spread warmth and care this winter.",
+        "status": "Completed",
+        "contactInfo": "info@winteraid.org, +880987654321",
+        "division": "Dhaka"
+    },
+    {
+        "id": 3,
+        "title": "Sylhet Warmth Drive",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9bQMrWlo_iazYZann9XGYotAkIagAhENY9A&s",
+        "description": "Helping rural communities in Sylhet stay warm during winter. We focus on reaching remote areas with blankets and clothing. Volunteers are working tirelessly to ensure timely delivery. Support us to make a difference this season.",
+        "status": "Active",
+        "contactInfo": "support@sylhetdrive.org, +880112233445",
+        "division": "Sylhet"
+    },
+    {
+        "id": 4,
+        "title": "Winter Essentials Sylhet",
+        "image": "https://thumbs.dreamstime.com/b/top-view-cardboard-box-clothes-donation-old-329126524.jpg",
+        "description": "This initiative supports low-income families in Sylhet with winter essentials. Items include sweaters, scarves, and gloves for all ages. Our team works locally to identify those in need. Join hands to make their winter safer and warmer.",
+        "status": "Ongoing",
+        "contactInfo": "help@essentialsylhet.org, +880554433221",
+        "division": "Sylhet"
+    },
+    {
+        "id": 5,
+        "title": "Chattogram Winter Relief",
+        "image": "https://t4.ftcdn.net/jpg/09/82/77/03/360_F_982770389_AnpGxoLg8CG0NkEv59Nvz4nNWGFAXcxV.jpg",
+        "description": "Our Chattogram relief program aims to help the homeless survive winter. Relief packages include warm clothes and nutritious food. The campaign reaches urban and rural areas alike. Your support can save lives during this critical time.",
+        "status": "Active",
+        "contactInfo": "relief@chattogramhelp.org, +880776655443",
+        "division": "Chattogram"
+    },
+    {
+        "id": 6,
+        "title": "Chattogram Warmth Campaign",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrO0tszsQjIT37EWecbtYKv8rD1ttwygN_fg&s",
+        "description": "This campaign provides sweaters, hats, and blankets to communities in Chattogram. Our mission is to ensure no one faces the winter unprotected. Volunteers are coordinating efforts for wide distribution. Be part of this life-changing effort.",
+        "status": "Planned",
+        "contactInfo": "info@warmthchattogram.org, +880334455667",
+        "division": "Chattogram"
+    },
+    {
+        "id": 7,
+        "title": "Rajshahi Blanket Drive",
+        "image": "https://ofhsoupkitchen.org/wp-content/uploads/2021/02/Where-to-Donate-Baby-Clothes-.jpg",
+        "description": "This drive focuses on providing blankets to marginalized groups in Rajshahi. Many families lack proper winter clothing in this area. Your donations can bring them warmth and safety. Together, we can make a significant impact.",
+        "status": "Active",
+        "contactInfo": "contact@rajshaiblanket.org, +880998877665",
+        "division": "Rajshahi"
+    },
+    {
+        "id": 8,
+        "title": "Rajshahi Warmth Initiative",
+        "image": "https://img.freepik.com/premium-photo/different-donations-box-clothes-stationery-toys-clothing-children-teenagers-preparation-school_98936-82.jpg",
+        "description": "Providing warm clothing to low-income families in Rajshahi. The campaign targets areas with the highest need for winter essentials. Volunteers are ensuring all donations reach the right hands. Your support can transform lives this winter.",
+        "status": "Completed",
+        "contactInfo": "help@rajshahiwarmth.org, +880887766554",
+        "division": "Rajshahi"
+    },
+    {
+        "id": 9,
+        "title": "Khulna Winter Care",
+        "image": "https://rinse-cdn.s3.amazonaws.com/media/filer_public/65/99/6599e370-ffa6-4dc0-9b8a-adf6c8694f75/donate_4.jpeg",
+        "description": "Providing winter care packages to the elderly and children in Khulna. The campaign focuses on areas where winter hits the hardest. Items include blankets, gloves, and warm meals. Help us provide warmth and comfort this season.",
+        "status": "Active",
+        "contactInfo": "care@khulnawarmth.org, +880665544332",
+        "division": "Khulna"
+    },
+    {
+        "id": 10,
+        "title": "Khulna Blanket Distribution",
+        "image": "https://images.squarespace-cdn.com/content/v1/55e1f33ae4b0eaca5bea0db7/1609446295325-A39GMZMQHJSWHQQ12ZDP/iStock-1077916628.jpg?format=1500w",
+        "description": "This campaign delivers blankets and sweaters to underprivileged families in Khulna. Our team is working to reach remote areas with the highest needs. Your contribution can bring warmth to hundreds of families. Join us to make a difference.",
+        "status": "Ongoing",
+        "contactInfo": "blanket@khulnahelp.org, +880443322110",
+        "division": "Khulna"
+    },
+    {
+        "id": 11,
+        "title": "Barishal Winter Relief",
+        "image": "https://media.istockphoto.com/id/1456115833/photo/donation-box-with-winter-clothes-on-an-old-wooden-background.jpg?s=612x612&w=0&k=20&c=B2Xk1QV4I6Zl6eUBread1AWdsEDu9iSEVtpUFjfpAWo=",
+        "description": "Aiding families in Barishal with warm clothing to endure the winter. Many families struggle during the cold months without proper clothing. We provide blankets and winter essentials to ensure their safety. Be a part of this meaningful initiative.",
+        "status": "Active",
+        "contactInfo": "relief@barishalcare.org, +880556677889",
+        "division": "Barishal"
+    },
+    {
+        "id": 12,
+        "title": "Barishal Warmth Initiative",
+        "image": "https://wsbt.com/resources/media2/16x9/1280/986/center/90/4007e031-a2d1-4d7d-9fbc-9b45a2c0ec1b-thumb_61339.png",
+        "description": "Delivering winter clothing to impoverished areas in Barishal. Our volunteers are committed to making a difference, one family at a time. Items include blankets, coats, and warm accessories. Your support can change lives this winter.",
+        "status": "Planned",
+        "contactInfo": "info@barishalwarmth.org, +880334455667",
+        "division": "Barishal"
+    },
+    {
+        "id": 13,
+        "title": "Rangpur Winter Drive",
+        "image": "https://media.istockphoto.com/id/1700284427/photo/mens-hands-hold-warm-knitted-sweaters-warm-winter-clothes-seasonal-clothes-selective-focus.jpg?s=612x612&w=0&k=20&c=Yis0emaRkK4eipKs8ELz3YW_rDaILbs9I1aEcJLYN3E=",
+        "description": "Helping vulnerable groups in Rangpur face the cold winter months. Our campaign provides blankets, jackets, and hot meals. We aim to cover rural and urban areas alike. Together, we can make this winter bearable for those in need.",
+        "status": "Ongoing",
+        "contactInfo": "drive@rangpurwarmth.org, +880998877665",
+        "division": "Rangpur"
+    },
+    {
+        "id": 14,
+        "title": "Rangpur Warm Clothes Campaign",
+        "image": "https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/3BB3/production/_128538251_gettyimages-92347950.jpg",
+        "description": "Collecting and distributing warm clothes to underprivileged families in Rangpur. The campaign prioritizes communities in extreme poverty. Volunteers ensure proper distribution of all donations. Be part of spreading warmth this winter.",
+        "status": "Active",
+        "contactInfo": "info@rangpurcare.org, +880887766554",
+        "division": "Rangpur"
+    },
+    {
+        "id": 15,
+        "title": "Mymensingh Blanket Drive",
+        "image": "https://images.squarespace-cdn.com/content/v1/5cf6ba117951ba0001a616e1/aedfb381-d67a-454c-95f9-57bda61e223c/prancier.com+%285%29.jpg",
+        "description": "Reaching out to remote areas in Mymensingh with blankets and winter clothing. Our team focuses on areas where resources are scarce. Donations help families stay warm and healthy during winter. Join us in this critical mission.",
+        "status": "Active",
+        "contactInfo": "support@mymensinghwarmth.org, +880556677889",
+        "division": "Mymensingh"
+    },
+    {
+        "id": 16,
+        "title": "Winter Warmth Mymensingh",
+        "image": "https://cristinascloset.org/wp-content/uploads/2023/01/clothes-232.png",
+        "description": "Providing winter essentials to the elderly and children in Mymensingh. Volunteers ensure quick and efficient distribution of donations. Together, we can bring warmth to those struggling in the cold. Support our cause today.",
+        "status": "Completed",
+        "contactInfo": "info@mymensinghwarmth.org, +880334455667",
+        "division": "Mymensingh"
+    }
+]
