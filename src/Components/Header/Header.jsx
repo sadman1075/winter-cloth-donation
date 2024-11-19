@@ -7,6 +7,7 @@ import toast from "react-hot-toast";
 
 const Header = () => {
     const { user,logout } = useContext(AuthContext)
+    const{photoURL,email}=user||""
     const navigate=useNavigate()
 
     const handlelogout=()=>{
@@ -67,7 +68,8 @@ const Header = () => {
                         user ? <Link onClick={handlelogout}>
                             <div className="avatar">
                                 <div className="w-12 rounded-full">
-                                    <img src={user.photoURL} />
+                                    <img src={photoURL} />
+                                    <p>{email}</p>
                                 </div>
                             </div>
                         </Link>

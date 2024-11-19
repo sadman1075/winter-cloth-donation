@@ -8,6 +8,8 @@ import Help from "../Components/Help/Help";
 import DonationCampaigns from "../Components/DonationCampaigns/DonationCampaigns";
 import DonationDetails from "../Components/DonationDetails/DonationDetails";
 import PrivateRoutes from "./PrivateRoutes";
+import Dashboard from "../Components/Dashboard/Dashboard";
+import UpdateProfile from "../Components/UpdateProfile/UpdateProfile";
 
 export const router = createBrowserRouter([
 
@@ -30,7 +32,15 @@ export const router = createBrowserRouter([
             {
                 path: "/donation-details/:id",
                 element: <PrivateRoutes><DonationDetails></DonationDetails></PrivateRoutes>,
-                loader: () => fetch("donations.json")
+                loader: () => fetch("/donations.json")
+            },
+            {
+                path: "/dashboard",
+                element: <PrivateRoutes><Dashboard></Dashboard></PrivateRoutes>
+            },
+            {
+                path: "/update-profile",
+                element: <PrivateRoutes><UpdateProfile></UpdateProfile></PrivateRoutes>
             }
         ]
 
