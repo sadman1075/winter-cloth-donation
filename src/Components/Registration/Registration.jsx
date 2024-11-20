@@ -7,7 +7,7 @@ import toast from "react-hot-toast";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 const Registration = () => {
-    const { GoogleSingup, createuser, updateprofile,setuser } = useContext(AuthContext)
+    const { GoogleSingup, createuser, updateprofile, setuser } = useContext(AuthContext)
     const navigate = useNavigate()
     const [showpassword, setshowpassword] = useState(false)
 
@@ -48,8 +48,8 @@ const Registration = () => {
                 updateprofile({ displayName: name, photoURL: photo })
                     .then(result => {
                         // toast.success("successfully Update your profile")
-                        setuser((prevoususer)=>{
-                            return {...prevoususer, displayName:name,photoURL:photo}
+                        setuser((prevoususer) => {
+                            return { ...prevoususer, displayName: name, photoURL: photo }
                         })
                     })
                     .catch(error => {

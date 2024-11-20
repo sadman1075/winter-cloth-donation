@@ -6,19 +6,19 @@ import { AuthContext } from "../../Context/AuthProvider";
 import toast from "react-hot-toast";
 
 const Header = () => {
-    const { user,logout } = useContext(AuthContext)
-    const{photoURL,email}=user||""
-    const navigate=useNavigate()
+    const { user, logout } = useContext(AuthContext)
+    const { photoURL, email } = user || ""
+    const navigate = useNavigate()
 
-    const handlelogout=()=>{
+    const handlelogout = () => {
         logout()
-        .then(result=>{
-            toast.success("successfully Log Out")
-            navigate("/login")
-        })
-        .catch(error=>{
-            toast.error(error.message)
-        })
+            .then(result => {
+                toast.success("successfully Log Out")
+                navigate("/login")
+            })
+            .catch(error => {
+                toast.error(error.message)
+            })
     }
     return (
         <div>
@@ -65,15 +65,22 @@ const Header = () => {
                 </div>
                 <div className="navbar-end">
                     {
-                        user ? <Link onClick={handlelogout}>
-                            <div className="avatar">
-                                <div className="w-12 rounded-full">
-                                    <img src={photoURL} />
-                                    <p>{email}</p>
+                        user ?
+                            <>
+                                <div className="flex gap-3">
+                                    <div className="avatar">
+                                        <div className="w-12 rounded-full">
+                                            <img src={photoURL} alt=""  />
+                                            <p>{email}</p>
+                                        </div>
+                                    </div>
+                                    <Link onClick={handlelogout} className="btn bg-black text-white">
+                                        Logout
+                                    </Link>
                                 </div>
-                            </div>
-                        </Link>
+                            </>
                             : <Link to={"/login"} className="btn bg-black text-white">Log In</Link>
+
 
                     }
                 </div>

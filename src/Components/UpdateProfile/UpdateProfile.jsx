@@ -3,22 +3,22 @@ import { AuthContext } from "../../Context/AuthProvider";
 import toast from "react-hot-toast";
 
 const UpdateProfile = () => {
-    const { updateprofile, user,setuser } = useContext(AuthContext)
+    const { updateprofile, user, setuser } = useContext(AuthContext)
     const { email } = user
     const handaleUpdateProfile = (e) => {
         e.preventDefault();
         const name = e.target.name.value;
         const photo = e.target.photo.value;
 
-        updateprofile({ displayName: name, photoURL:photo })
+
+        updateprofile({ displayName: name, photoURL: photo })
             .then(result => {
                 toast.success("successfully Update your profile")
-                setuser((prevoususer)=>{
-                    return {...prevoususer, displayName:name,photoURL:photo}
+                setuser((prevoususer) => {
+                    return { ...prevoususer, displayName: name, photoURL: photo }
                 })
 
                 e.target.reset()
-
             })
             .catch(error => {
                 toast.error(error.message)
