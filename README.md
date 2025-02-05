@@ -33,3 +33,13 @@ Pickup and Delivery Coordination:
 4. aos
 5. react hot toast
 6. marquee
+   
+## Dependencies
+<li>Ensure you have Node.js installed</li>
+<li>Ensure React is Installed</li>
+
+## How to Run Locally
+<li>1️⃣ Clone the repository</li>
+<li>2️⃣ Navigate to the project directory</li>
+<li>3️⃣ Install dependencies</li>
+<li>4️⃣ Start the development server</li>
