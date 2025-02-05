@@ -11,20 +11,20 @@ The Winter Clothing Donation platform is designed to connect donors with individ
 2.Users can sign up as donors, recipients, or organizations.
 3.Secure login system with password encryption.
 Clothing Donation Listings:
-1.Donors can post details about the winter clothing they wish to donate (e.g., type, size, and condition).
-2.Ability to upload images of items for better clarity.
+<li>Donors can post details about the winter clothing they wish to donate (e.g., type, size, and condition).</li>
+<li>Ability to upload images of items for better clarity.
+</li>
 Search and Filter Options:
-
-1.Recipients can search for available donations by category, size, or location.
-2.Interactive map for locating nearby donation points.
+<li>Recipients can search for available donations by category, size, or location.</li>
+<li>Interactive map for locating nearby donation points.</li>
 Request and Match System:
-
-Recipients can send requests for listed items.
-1.Automatic matching system connects donors with recipients based on preferences or proximity.
+<li>Recipients can send requests for listed items.
+</li>
+<li>Automatic matching system connects donors with recipients based on preferences or proximity.</li>
 Pickup and Delivery Coordination:
+<li>Built-in system to coordinate donation pickups or drop-offs.</li>
+<li>Option for organizations to offer transportation services.</li>
 
-1.Built-in system to coordinate donation pickups or drop-offs.
-2.Option for organizations to offer transportation services.
 # Live Link: https://winter-clothing-1acc4.web.app/
 # Npm Packages:
 1. firebase
